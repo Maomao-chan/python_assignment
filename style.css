@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(114, 94, 94) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    font-size: 15px;
+    font-style : italic;
+    font-weight : 70;
+    text-decoration: overline;
+    letter-spacing: 5px;
+    word-spacing: 5 px;
+    direction: ltr;
+}
+.wrong{
+    color : red
+}
+.correct{
+    color : blue
+}
+#a{
+    color : yellow
+}
+.container{
+    display : flex;
+    gap : 10px;
+    border : 2 px solid black;
+    padding : 100 px;
+    min-height : 200px
+}
+.item{
+    background-color: rgb(114, 94, 94);
+    color : white;
+    padding: 100 px;
+}
+button:hover{
+    background-color: rgb(225, 82, 82);
+}
+ 
+  .item{
+      background-color: black;
+      color : white;
+      padding: 100 px;
+  }
+  button:hover{
+      background-color: rgb(225, 82, 82);
+  }
+  button:active{
+      transform: scale(0.90);
+  }
+  b{
+      transition: all; 
+  } 
